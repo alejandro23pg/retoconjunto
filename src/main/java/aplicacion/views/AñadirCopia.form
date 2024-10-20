@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="aplicacion.views.AñadirCopia">
+  <grid id="27dc6" binding="ventanaAdd" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="290" width="360" height="215"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="78c76" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="670ae" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font size="24" style="1"/>
+              <text value="Añadir Copia"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3008a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="dbdf1" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="688c2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="9c801" class="javax.swing.JLabel">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <text value="Soporte"/>
+                    </properties>
+                  </component>
+                  <component id="f759e" class="javax.swing.JLabel">
+                    <constraints border-constraint="South"/>
+                    <properties>
+                      <text value="Película: "/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="120bc" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="cb65" class="javax.swing.JComboBox" binding="soporteCombo">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                  </component>
+                  <component id="52ec3" class="javax.swing.JComboBox" binding="peliculaCombo">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="867cc" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e9477" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <text value="Estado: "/>
+                    </properties>
+                  </component>
+                  <grid id="2a35e" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="49981" class="javax.swing.JRadioButton" binding="buenoRadioButton" default-binding="true">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <text value="Bueno"/>
+                        </properties>
+                      </component>
+                      <component id="83c84" class="javax.swing.JRadioButton" binding="dañadoRadioButton" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <text value="Dañado"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="f29e3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="e9894" class="javax.swing.JButton" binding="botonGuardar">
+                    <constraints/>
+                    <properties>
+                      <text value="Guardar"/>
+                    </properties>
+                  </component>
+                  <component id="d68f9" class="javax.swing.JButton" binding="botonCancelar">
+                    <constraints/>
+                    <properties>
+                      <text value="Cancelar"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="3dc1b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="230bd" class="javax.swing.JLabel" binding="warning">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <foreground color="-1763270"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroupEstado">
+      <member id="83c84"/>
+      <member id="49981"/>
+    </group>
+  </buttonGroups>
+</form>

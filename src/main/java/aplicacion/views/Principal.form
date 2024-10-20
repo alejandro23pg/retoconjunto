@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="aplicacion.views.Principal">
+  <grid id="27dc6" binding="ventanaLista" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="10" y="20" width="510" height="419"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="d46d1" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ef1fb" class="javax.swing.JLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <icon value="img/movies.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5a394" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font name="Baskerville Old Face" size="36"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="4"/>
+              <text value="Colección"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="d2dc4">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6cfda" class="javax.swing.JTable" binding="listadoPeliculas">
+            <constraints/>
+            <properties>
+              <autoCreateColumnsFromModel value="true"/>
+              <autoCreateRowSorter value="false"/>
+              <columnSelectionAllowed value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="b1671" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="82a97" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bf363" class="javax.swing.JButton" binding="botonSalir">
+                <constraints/>
+                <properties>
+                  <label value="Salir"/>
+                  <text value="Salir"/>
+                </properties>
+              </component>
+              <component id="15f22" class="javax.swing.JButton" binding="botonVolver">
+                <constraints/>
+                <properties>
+                  <label value="Atrás"/>
+                  <text value="Atrás"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ddf0c" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="East"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="13c04" class="javax.swing.JButton" binding="botonAñadir">
+                <constraints/>
+                <properties>
+                  <icon value="img/agregarcopia.png"/>
+                  <label value="Añadir"/>
+                  <text value="Añadir"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
